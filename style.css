@@ -26,7 +26,7 @@ img {
 
 a {
   text-decoration: none;
-  color: purple;
+  color: #ccc;
 }
 
 
@@ -50,6 +50,41 @@ section#entertainment {
   padding: 10rem 0;
 }
 
+.gift-cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*Footer*/
+
+footer .footer-cols {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  text-align: left;
+}
+
+footer .footer-cols ul {
+  list-style: none; 
+}
+
+footer .footer-cols ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+  background: #333;
+}
 /*showcase*/
 
 #showcase {
@@ -251,3 +286,48 @@ nav a#openup {
 .cf {
   zoom: 1;
 }
+
+@media screen and (max-width: 780px) {
+  .gift-cards {
+  grid-template-columns: 1fr;
+  
+}
+
+footer .footer-cols {
+  display: none;
+}
+
+}
+
+@media screen and (max-height: 580px) {
+  .main-section p.lead {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
