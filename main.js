@@ -18,7 +18,7 @@ $(function() {
   });
   $('.open-menu').height($(window).height());
 });
-
+/*
 $('.cf a').on('click', function (event) {
   if (this.hash !== '') {
     event.preventDefault();
@@ -36,3 +36,4 @@ $('.cf a').on('click', function (event) {
 
   } 
 })
+*/
